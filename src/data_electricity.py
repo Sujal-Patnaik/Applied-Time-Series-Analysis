@@ -7,7 +7,6 @@ import config
 
 
 # LD2011_2014.txt from UCI. Put it in data/raw/.
-# Separator is ';' and the decimal mark is ','.
 # The first column is a timestamp, the rest are 370 customers.
 # Row 1 is 2011-01-01 00:15, readings are every 15 minutes.
 #
