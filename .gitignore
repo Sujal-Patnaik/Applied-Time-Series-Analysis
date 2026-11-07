@@ -1,1 +1,29 @@
-data/raw/
+# datasets and generated arrays (keep only the empty folders)
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+arrays/*
+!arrays/.gitkeep
+
+# python and R leftovers
+__pycache__/
+*.pyc
+.Rhistory
+.DS_Store
+
+# windows files
+*Zone.Identifier
+desktop.ini
+
+# presentation, paper and archives
+*.pdf
+*.zip
+*.mp4
+
+# project docs not published in the repo
+/README.md
+/NOVELTY.md
+
+# old results that no current script produces
+results/adaptive_synthetic_probe_*
